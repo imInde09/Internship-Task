@@ -1,0 +1,243 @@
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*  */
+  .sidebar {
+    float: left;
+    width: 300px;
+    padding: 2px;
+    
+  }
+  .mainprofile{
+      text-align: center;
+      background-color: rgb(231, 231, 231);
+      height: 500px;
+      border-radius: 5px;
+      margin-top: 10px;
+  }
+  .mainprofile p{
+      padding-bottom: 10px;
+  }.mainprofile p img{
+      margin-top: 10px;
+  }
+  .sidebar div {
+    text-align: center;
+  }
+  
+  .person {
+    width: 200px;
+  }
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .content-div1 {
+    font-size: 15px;
+    color: grey;
+  }
+  .alergies p{
+      padding-left: 20px;
+      text-align: left;
+  }
+  /* Heading  */
+  .heading1 {
+    display: flex;
+    /* float: left; */
+    margin-left: 270px;
+  }
+  .heading1 p {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 40px;
+  }
+  .heading1 button {
+    margin-left: 30px;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 150px;
+    margin-top: 8px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  /* ListMain1 */
+  .listmain1 {
+    margin-top: 10px;
+    margin-left: 270px;
+    color: grey;
+  }
+  .list1 {
+    float: left;
+    list-style-type: none;
+  }
+  .list1 li {
+    padding-bottom: 30px;
+  }
+  .list2 li {
+    padding-bottom: 30px;
+  }
+  .list2 {
+    margin-left: 40px;
+    float: left;
+    list-style-type: none;
+  }
+  /* ListMain2 */
+  .listmain2 {
+    margin-top: 10px;
+    margin-left: 270px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 200px;
+  }
+  
+  .list3 {
+    float: left;
+    list-style-type: none;
+  }
+  .list4 li button {
+    margin-left: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 150px;
+    /* margin-top: 8px; */
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .list4 {
+    margin-left: 40px;
+    float: left;
+    list-style-type: none;
+  }
+  
+  .list3 li {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .list4 li {
+    padding-bottom: 30px;
+  }
+  
+  /* Buttons */
+  .book-buttons {
+    margin-top: 470px;
+    margin-left: 270px;
+  }
+  .no-show {
+    border: 2px solid black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: darkorange;
+    color: darkorange;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  .reschedule {
+    border: 2px solid black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: darkblue;
+    color: darkblue;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  .cancel {
+    border: 2px solid black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: #04aa6d;
+    color: green;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  
+  /* Check-buttons */
+  
+  .Check-buttons {
+    margin-top: 50px;
+    margin-left: 270px;
+  }
+  
+  .check-in {
+    margin-left: 70px;
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 150px;
+    /* margin-top: 8px; */
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .start-encounter {
+    margin-left: 70px;
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 250px;
+    /* margin-top: 8px; */
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  /*  */
+  /* .w3-container{
+    width: 900px;
+  } */

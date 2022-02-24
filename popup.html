@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <h2>Open Appointment Information</h2>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Click Here</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <div class="sidebar">
+          <div class="mainprofile">
+            <p><img src="./My project (1).png" alt="" class="person" /></p>
+            <p class="name">Mr.Something</p>
+            <div class="content-div1">
+              <p>(26 Years, Male)</p>
+              <p>123456789</p>
+              <p>dev@gmail.com</p>
+            </div>
+          </div>
+          <div class="alergies">
+            <p>MRN: #</p>
+            <p>Allergies:</p>
+          </div>
+        </div>
+
+        <div class="main-class">
+          <div class="heading1">
+            <p>Appointment Details</p>
+            <button>Scheduled</button>
+          </div>
+        </div>
+        <div class="listmain1">
+          <ul class="list1">
+            <li>Provider: Brian Murphy</li>
+            <li>Date:</li>
+            <li>
+              Cheif Complaints: UI Designer
+              <img src="./edit_black_24dp.svg" alt="" />
+            </li>
+          </ul>
+          <ul class="list2">
+            <li>Facility Name: 8056 Jackson Dr.</li>
+            <li>Time: 08:45AM-09:00AM</li>
+          </ul>
+        </div>
+        <div class="listmain2">
+          <ul class="list3">
+            <li>Insurance: Yes/No</li>
+            <li>
+              Copay/Co-ins: $50 <img src="./edit_black_24dp.svg" alt="" />
+            </li>
+            <li>Confirmed: Yes</li>
+          </ul>
+          <ul class="list4">
+            <li>Insurance Eligibility: <button>Verify</button></li>
+            <li>Process Payment: <button class="pay">Pay</button></li>
+            <li>
+              Confirmation Method: Drop Down(text, Email, Call, Voicemain)
+            </li>
+          </ul>
+        </div>
+        <div class="book-buttons">
+          <button class="no-show">No Show</button>
+          <button class="reschedule">Reschedule</button>
+          <button class="cancel">Cancel</button>
+        </div>
+        <div class="Check-buttons">
+          <button class="check-in">Check-in</button>
+          <button class="start-encounter">Start Encounter</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
